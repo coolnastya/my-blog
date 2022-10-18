@@ -11,7 +11,7 @@ const Cover = ({
     <div className={cl(className, styles.cover)}>
       <h1
         className={styles.coverTitle}
-        // dangerouslySetInnerHTML=({__html: title})
+        dangerouslySetInnerHTML={{__html: title}}
       />
       </div>
   )
